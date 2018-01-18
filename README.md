@@ -14,3 +14,6 @@ One of the requested features of this app is to have a large font on the questio
 - Clear current questionare
 - Settings page to change the Name, Email and password (the name and email will show on the report, the password is to access the questionare page)
 - Share report through email
+
+## Screenshots
+Check the ScreenShots folder to view the screen shots
