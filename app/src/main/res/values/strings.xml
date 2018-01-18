@@ -1,0 +1,92 @@
+<resources>
+    <string name="app_name">Standing Sick</string>
+
+    <!-- Strings para atividade principal -->
+    <string name="navigation_drawer_open">Abrir gaveta de navegação</string>
+    <string name="navigation_drawer_close">Fechar gaveta de navegação</string>
+    <string name="app_subtitle">Relatório Pré-Triagem</string>
+    <string name="button_next">Seguinte</string>
+    <string name="button_prev">Anterior</string>
+    <string name="gen_report">Gerar Relatório</string>
+    <string name="last_question">Descreva melhor os seus sintomas</string>
+    <string name="confirm_reset_database">Deseja restaurar a base de dados?</string>
+
+
+    <!-- Strings para a gaveta de navegação -->
+    <string name="nav_str_gen_new_report">Gerar novo relatório</string>
+    <string name="nav_str_recent_appointments">Consultas recentes</string>
+    <string name="nav_str_admin">Administração</string>
+    <string name="nav_str_settings">Definições</string>
+    <string name="nav_str_manage_questions">Gerir perguntas</string>
+    <string name="nav_str_share">Partilha</string>
+    <string name="nav_str_send_email">Enviar relatório</string>
+    <string name="nav_str_manage_answers">Gerir respostas</string>
+    <string name="nav_str_reset_database">Repor questões de origem</string>
+
+    <!-- Strings para atividade de registo e de login -->
+    <string name="title_activity_register">Registar</string>
+    <string name="name_field">Nome</string>
+    <string name="email_field">Email</string>
+    <string name="password_field">Password</string>
+    <string name="password_field_confirm">Confirmação de Password</string>
+    <string name="register_button">Registar</string>
+    <string name="required_field_err">Campo necessário</string>
+    <string name="invalid_email_err">Email inválido</string>
+    <string name="invalid_password_err">A password requer pelo menos 6 caracteres</string>
+    <string name="keep_session">Manter sessão iniciada</string>
+    <string name="password_dont_match_err">As passwords não combinam</string>
+    <string name="login_action">Login</string>
+    <string name="incorrect_login">Credenciais de login incorretas</string>
+
+    <!-- Strings para o relatório -->
+    <string name="title_activity_report">Relatório</string>
+    <string name="confirm_delete_report">Deseja eliminar este relatório</string>
+
+    <!-- Strings para o ficheiro do relatório -->
+    <string name="title">Standing Sick - Relatório Pré-Triagem</string>
+    <string name="usr">Utilizador: </string>
+    <string name="email">Email: </string>
+    <string name="title_activity_login">Login</string>
+
+    <!-- String para as definições -->
+    <string name="activity_settings_title">Definições</string>
+    <string name="save_settings_button">Guardar</string>
+    <string name="fill_password_fields_for_password_change">NOTA: Preencha os campos de password apenas se a quiser alterar</string>
+
+    <!-- Fix para erro de causa desconhecida -->
+    <item name="visible" type="id" />
+    <item name="masked" type="id" />
+
+    <!-- Strings para a atividade de historico -->
+    <string name="activity_title_history">Consultas Recentes</string>
+
+    <!-- Strings para o pedido de password -->
+    <string name="enter_password">Introduza a password</string>
+    <string name="ok">OK</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="incorrect_password">Password incorreta</string>
+
+    <!-- Strings para o adicionar e remover perguntas -->
+    <string name="question_manager_activity">Gerir perguntas</string>
+    <string name="addQuestion">Adicionar Pergunta</string>
+    <string name="question_field">Questão</string>
+    <string name="questionDeleteQuestion">Eliminar</string>
+    <string name="questionSaveQuestion">Guardar</string>
+    <string name="questionAddAnswer">Nova Opção</string>
+    <string name="optionsArea">Opções</string>
+    <string name="deleteOptionConfirm">Deseja eliminar esta opção?</string>
+    <string name="answer_manager_activity">Gerir respostas</string>
+    <string name="addAnswer">Adicionar Resposta</string>
+    <string name="answer_name_field">Introduza o nome da Resposta</string>
+    <string name="option_aready_exists">A opção já existe</string>
+    <string name="answer_already_exists">A resposta já existe</string>
+    <string name="enter_new_question">Introduza a nova questão</string>
+    <string name="question_already_exists">A questão já existe</string>
+    <string name="questionSaved">A questão foi atualizada</string>
+    <string name="invalidQuestionName">A questão tem que conter texto</string>
+    <string name="invalidAnswerName">A resposta tem que conter texto</string>
+    <string name="deleteQuestionQuestion">Deseja eliminar esta pergunta?</string>
+
+    <string name="yes">Sim</string>
+    <string name="no">Não</string>
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group>
+        <item
+            android:id="@+id/nav_new_report"
+            android:icon="@drawable/icons8_plus96"
+            android:title="@string/nav_str_gen_new_report" />
+        <item
+            android:id="@+id/nav_latest_appointments"
+            android:icon="@drawable/icons8_past96"
+            android:title="@string/nav_str_recent_appointments" />
+    </group>
+    <item android:title="@string/nav_str_admin">
+        <menu>
+            <item
+                android:id="@+id/nav_settings"
+                android:icon="@drawable/icons8_settings96"
+                android:title="@string/nav_str_settings" />
+            <item
+                android:id="@+id/nav_manage_questions"
+                android:icon="@drawable/icons8_form96"
+                android:title="@string/nav_str_manage_questions" />
+            <item
+                android:id="@+id/nav_manage_answers"
+                android:icon="@drawable/icons8_form96"
+                android:title="@string/nav_str_manage_answers" />
+            <item
+                android:id="@+id/nav_reset_database"
+                android:icon="@drawable/icons8_reset96"
+                android:title="@string/nav_str_reset_database" />
+        </menu>
+    </item>
+
+    <item android:title="@string/nav_str_share">
+        <menu>
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/icons8_message96"
+                android:title="@string/nav_str_send_email" />
+        </menu>
+    </item>
+
+</menu>
